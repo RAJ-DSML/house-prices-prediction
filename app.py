@@ -23,7 +23,7 @@ def predict_api():
     print(data)
     print(np.array(list(data.values())).reshape(1, -1))
 
-    new_data = scaling_model.transform(np.array(data.values())).reshape(1, -1)
+    new_data = scaling_model.transform(np.array(list(data.values())).reshape(1, -1))
     output = reg_model.predict(new_data)
 
     print(output[0])
@@ -40,7 +40,7 @@ def predict():
 
     output = reg_model.predict(final_input)[0]
 
-    return render_template("home.html", prediction_text = "The Predicted House Price is {}".format(output))
+    return render_template("home.html", prediction_text = "The Predicted House Price is: {}".format(output))
 
 
 if __name__ == "__main__":
