@@ -12,3 +12,26 @@
         - AveOccup      average number of household members<br>
         - Latitude      block group latitude<br>
         - Longitude     block group longitude<br>
+
+### Instruction for deployment:
+#### Step 1: Clone the Repository
+```
+git clone https://github.com/RAJ-DSML/house-prices-prediction.git
+```
+#### Step 2: Create the Virtual Environment: 
+
+```
+python -m venv venv
+```
+#### Step 3: Activate the Virtual Environment: 
+```
+venv\Scripts\activate
+```
+#### Step 4: Install the required packages: 
+```
+pip install -r requirements.txt
+```
+#### Step 5: Run in the Terminal, it will autometically deploy:
+```
+python app.py
+```
