@@ -35,3 +35,10 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
+
+## Sample Images of Deployment
+### Home Page Image
+![Home-Page Image](https://github.com/RAJ-DSML/house-prices-prediction/blob/main/images/home_html.JPG)
+
+### Predict Price Image
+![Predict Price Home Page Image](https://github.com/RAJ-DSML/house-prices-prediction/blob/main/images/predicted_image.JPG)
